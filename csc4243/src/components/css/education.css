@@ -1,0 +1,144 @@
+html {
+    background-color: lightgray;
+}
+
+#graduation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.graduation-radio {
+    margin-left: 1vh;
+}
+
+.info-form {
+    margin-left: 1vh;
+    width: 20%;
+    height: 100px;
+    background-color: beige;
+}
+
+.major-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-field {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* popup */
+
+/* Popup container */
+.popup {
+    margin-top: 10px;
+    margin-left: 2px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* end popup */
+
+.submit {
+    margin-top: 1%;
+    width: 10%;
+    height: 30px;
+    background-color: beige;
+    cursor: pointer;
+}
+
+.education {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.header  {
+  background-color: rgb(39, 117, 69);
+  height: 10rem;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logo {
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(39, 117, 69);
+    margin: 0 0 0;
+    display: inline-box;
+    line-height: 2rem;
+    float: left;
+  }
+
+.header_text {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  padding-right: 10rem;
+  margin-top: 0;
+  line-height: 5rem;
+  vertical-align: middle;
+}
+
+.selection_box {
+  background-color: #E5E5E5;
+  border-radius: 1rem;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 2rem;
+}

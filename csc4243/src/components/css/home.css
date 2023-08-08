@@ -1,0 +1,39 @@
+.home {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.header  {
+  background-color: rgb(39, 117, 69);
+  height: 10rem;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logo {
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(39, 117, 69);
+    margin: 0 0 0;
+    display: inline-box;
+    line-height: 2rem;
+    float: left;
+  }
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.header_text {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  padding-right: 10rem;
+  margin-top: 0;
+  line-height: 5rem;
+  vertical-align: middle;
+}

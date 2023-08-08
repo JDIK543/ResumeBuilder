@@ -1,0 +1,143 @@
+.result {
+    text-align: center;
+    padding-top: 10rem;
+  }
+  
+  .header  {
+    background-color: rgb(39, 117, 69);
+    height: 10rem;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+      height: 10rem;
+      width: 10rem;
+      background-color: rgb(39, 117, 69);
+      margin: 0 0 0;
+      display: inline-box;
+      line-height: 2rem;
+      float: left;
+    }
+  
+  .logo:hover {
+      cursor: pointer;
+  }
+  
+  .header_text {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    padding-right: 10rem;
+    margin-top: 0;
+    line-height: 5rem;
+    vertical-align: middle;
+  }
+
+/* .personal-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:auto;
+    max-width: 80vw;
+    
+}
+
+.education-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:auto;
+    max-width: 80vw;
+}
+
+.experience-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:auto;
+    max-width: 80vw;
+} */
+
+.selection_box {
+    background-color: #E5E5E5;
+    border-radius: 1rem;
+    width: 55%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.personinfo {
+    font-size: 18px;
+}
+
+.line {
+    height: 10px;
+}
+
+.miniheader {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.school {
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: -.5rem;
+    font-size: 18px;
+
+}
+
+.graddate {
+    float: right;
+    margin-right: 1rem;
+}
+
+.major {
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    font-size: 18px;
+}
+
+.gpa {
+    float: right;
+    margin-right: 1rem;
+}
+
+.place {
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: -.5rem;
+    font-size: 18px;
+}
+
+.worktime {
+    float: right;
+    margin-right: 1rem;
+}
+
+.position {
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    font-size: 18px;
+}
+
+.workstuff {
+    font-size: 16px;
+    margin-left: 2rem;
+    text-align: left;
+}
